@@ -1,0 +1,34 @@
+/*Cabeçalho*/
+body {
+    background-color: rgb(255, 175, 55);
+}
+.Header {
+    background-color: rgb(189, 123, 0);
+    padding: 20px 20px;
+    float: none;
+}
+.Header #Logo{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: black;
+}
+
+#Right {
+    background-color: rgb(179, 95, 0);
+    text-align: center;
+    padding: 5px;
+}
+#Right a {
+    padding: 0px 50px;
+}
+
+/*Caixa de texto*/
+.Caixa-Principal{
+    float: none;
+    text-align: center;
+    width: 1200px;
+    height: 200px;
+}
