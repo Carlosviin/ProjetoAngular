@@ -27,8 +27,34 @@ a{
 
 /*Caixa de texto*/
 .Caixa-Principal{
-    float: none;
-    text-align: center;
-    width: 1200px;
-    height: 200px;
+    padding: 3px 1px;
+    margin: 0px 95px;
+    width: 1250px;
+    height: 120px;
+    font-size: 15px;
+    vertical-align: auto;
+}
+.Caixa-Principal #Esquerda{
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.1px;
+    width: 340px;
+    height: 120px;
+
+}
+.Caixa-Principal #Meio{
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.1px;
+    width: 350px;
+    height: 120px;
+
+}
+.Caixa-Principal #Direita{
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.1px;
+    width: 350px;
+    height: 120px;
+
 }
