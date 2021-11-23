@@ -1,7 +1,4 @@
 /*Cabeçalho*/
-body {
-    background-color: rgb(255, 175, 55);
-}
 .Header {
     background-color: rgb(189, 123, 0);
     padding: 20px 20px;
@@ -34,12 +31,11 @@ body {
 
 /*Caixa de texto*/
 .Caixa-Principal{
-    padding: 3px 1px;
-    margin: 0px 95px;
+    display: block;
+    margin: auto;
     width: 1250px;
     height: 120px;
     font-size: 15px;
-    vertical-align: auto;
 }
 .Caixa-Principal #Esquerda{
     display: inline-block;
@@ -78,25 +74,44 @@ body {
     
 
 }
-.Contatos #Contatos{
+#Contatos{
     padding: 20px 20px;
-    display: inline-block;
     width: 500px;
     height: 400px;
 
 }
 .Contatos img{
-    display: inline-block;
-    width: 500px;
-    height: 400px;
+    display:inline-flex;
+    width: 600px;
+    height: 280px;
     align-items: center;
     border-radius: 1%;
+    margin: auto;
+    margin-left: 100%;
 }
 /*Rodapé*/
 .footer{
     background-color: rgb(189, 123, 0);
+    padding: 10px 20px;
 }
 .footer a{
     text-decoration: none;
     color: wheat;
+}
+.Center {
+    display: inline-block;
+    margin: auto;
+
+}
+.Center ul li a{
+    font-size: medium;
+
+}
+.Right{
+    display: inline-block;
+    margin: auto;
+    
+}
+.Right ul li a{
+    font-size: medium;
 }
